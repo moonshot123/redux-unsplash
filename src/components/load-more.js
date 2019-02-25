@@ -25,7 +25,7 @@ class LoadMore extends Component {
     axios
       .get('https://api.unsplash.com/photos/random', {
         params: {
-          client_id: '키는 가려주겠습니다.',
+          client_id: '7df2960a6433aa5f9c3db9c2d1dae8b6910ba017025f5d80dde0b7c6bc83fe56',
           count: 30
         }
       })
